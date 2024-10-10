@@ -1,0 +1,17 @@
+p, input{
+    display: inline;
+}
+tr td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+}
+thead tr td{
+    font-weight: bold;
+}
+.ami{
+    font-weight: bold;
+}

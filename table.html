@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .foot {
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="intro.html">intro</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="vdo.html">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <H1>Make a Table</H1>
+        <table>
+            <caption>Employee Salary Sheet</caption>
+            <thead>
+                <tr>
+                    <th>Serial</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Karim</td>
+                    <td>CEO</td>
+                    <td>70000 bdt</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rahim</td>
+                    <td>GM</td>
+                    <td>60000 bdt</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Kashem</td>
+                    <td>CMO</td>
+                    <td>50000 bdt</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="foot">
+                    <td colspan="4">Total Employee: 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+
+</html>

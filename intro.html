@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amr Diary</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/blog.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="intro.html">intro</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="vdo.html">Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <H2>Please fill up the form</H2>
+        <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="your name">
+        </label>
+        <label for="email">Your Email
+            <input type="email" id="email" placeholder="your email">
+        </label>
+        <label for="Phone">Your Phone Number
+            <input type="number" id="number" placeholder="your number">
+        </label>
+
+        <fieldset>
+            <legend>Pick one</legend>
+            <label for="Mine" >
+                <input type="radio" name="Emo" id="Anger">Anger
+            </label>
+            <label for="Stress">
+                <input type="radio" name="Emo" id="nai">Stress
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pic one or more emotion
+            </legend>
+            <label for="emotion">
+                <input type="checkbox" name="Emotion" id="Sad">Sad
+            </label>
+            <label for="Emotion">
+                <input type="checkbox" name="Emotion" id="Happy">Happy
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Give Your Opinion</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>            
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

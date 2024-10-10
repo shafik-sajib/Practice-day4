@@ -1,0 +1,23 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+nav li:hover{
+    background-color: aquamarine;
+}
+nav li a{
+    text-decoration: none;
+}
+/* Nested */
+nav li .Drop{
+    display: none;
+    position: absolute;
+    padding: 10px;
+}
+nav li:hover > .Drop{
+    display: block;
+}

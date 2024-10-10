@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form banao</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1>fill up the form</h1>
+        <form>
+            <label for="Name">Your Name:
+                <input id="Name" type="text" placeholder="Your Name">
+            </label>
+            <label for="Email">Your Email
+                <input type="email" name="" id="Email" placeholder="Your Email">
+            </label>
+            <label for="Phone Number">Your Number
+                <input type="number" name="" id="Number" placeholder="Your Mobile Number">
+            </label>
+            <fieldset>
+                <legend>Pick one</legend>
+                <label for="Emo">
+                    <input type="radio" name="Anger" id="Emo">Anger
+                </label>    
+                <label for="Emo">
+                    <input type="radio" name="Stress" id="Emto">Stress
+                </label>    
+                <label for="Emo">
+                    <input type="radio" name="Sad" id="Emio">Sad
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one or more</legend>
+                <label for="Emotion">
+                    <input type="checkbox" name="Sad" id="Emotion">Anger
+                </label>
+                <label for="Emotion">
+                    <input type="checkbox" name="Anger" id="Emotion">Sad
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Give your Opinion</legend>
+                <textarea name="Opinion" cols="30" rows="5" id=""></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
